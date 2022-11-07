@@ -1,0 +1,21 @@
+name: tensorflow-dl
+channels:
+  - apple
+  - conda-forge
+dependencies:
+    - python=3.9
+    - pip>=19.0
+    - jupyter
+    - notebook
+    - tensorflow-deps
+    - keras
+    - scikit-learn
+    - scipy
+    - pandas
+    - matplotlib
+    - pillow
+    - h5py
+    - ipykernel
+    - pip:
+        - tensorflow-macos
+        - tensorflow-metal
