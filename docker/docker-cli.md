@@ -80,3 +80,4 @@ Docker images are templates for creating an environment of yout choice.
 COMMAND | DESCRIPTION
 ---|---
 `docker image ls` | List all the local image
+`docker rmi IMAGE_ID` | Delete docker image with id
